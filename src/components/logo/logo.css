@@ -1,0 +1,40 @@
+/* src/components/styles.css */
+
+/* ... (previous styles) */
+
+/* Main Content Section 2 styles */
+.main-content .section-2 {
+    background-color: #f0f0f0; /* Adjust the background color */
+    padding: 5px;
+  }
+  
+  .section-2-title {
+    font-size: 36px; /* Adjust the font size of the title */
+    margin-bottom: 20px;
+  }
+  
+  .logo-container-section-2 {
+    display: flex;
+    justify-content: center; /* Adjust based on your design */
+    align-items: center; /* Align logos vertically centered */
+    flex-wrap: wrap; /* Allow items to wrap onto the next line */
+    gap:8px;
+  }
+  
+  .logo-section-2 {
+    width: 100px; /* Adjust the width of each logo */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Adjust margin between logos */
+  }
+  
+  /* Responsive styles */
+  @media only screen and (max-width: 768px) {
+    .logo-container-section-2 {
+      justify-content: center; /* Center logos on smaller screens */
+    }
+  
+    .logo-section-2 {
+      margin: 10px; /* Adjust margin between logos on smaller screens */
+    }
+  }
+  
