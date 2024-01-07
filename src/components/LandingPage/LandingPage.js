@@ -9,10 +9,7 @@ import FeatureComponent from '../FeatureComponent/FeatureComponent';
 import FeatureComponent2 from '../FeatureComponent2/FeatureComponent2';
 import MetricsComponent from '../MetricsComponent/MetricsComponent';
 import TestimonialComponent from '../TestimonialComponent/TestimonialComponent';
-<<<<<<< HEAD
 import CallToActionComponent from '../CallToActionComponent/CallToActionComponent';
-=======
->>>>>>> 3e6ce36436398ab1cd7bc6ee40d24f37ea66baa2
 
 const LandingPage = () => {
   return (
@@ -25,10 +22,7 @@ const LandingPage = () => {
       <FeatureComponent2/>
       <MetricsComponent/>
       <TestimonialComponent/>
-<<<<<<< HEAD
       <CallToActionComponent/>
-=======
->>>>>>> 3e6ce36436398ab1cd7bc6ee40d24f37ea66baa2
       <Footer />
     </div>
   );
