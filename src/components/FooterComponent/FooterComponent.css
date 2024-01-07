@@ -1,0 +1,82 @@
+/* src/components/FooterComponent.css */
+
+.footer-container {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    color: black;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .modeui-logo {
+    max-width: 100px;
+    margin-right: 10px;
+  }
+  
+  .logo-name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .footer-divider {
+    width: 100%;
+    margin: 20px 0;
+    border: 1px solid transparent; /* Set border color to transparent */
+  }
+  
+  .footer-section {
+    margin: 0 10px; /* Adjust margin for spacing */
+  }
+  
+  .footer-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-subtitle {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+  }
+  
+  .social-icon {
+    font-size: 20px;
+    margin: 0 5px;
+  }
+  
+  .footer-copyright {
+    font-size: 12px;
+  }
+  
+  /* Responsive styles for FooterComponent */
+  @media only screen and (max-width: 600px) {
+    .footer-content {
+      flex-direction: column; /* Adjust layout to column on smaller screens */
+    }
+  
+    .footer-section {
+      margin: 10px 0;
+    }
+  
+    .social-icons {
+      flex-direction: column; /* Adjust layout to column on smaller screens */
+    }
+  }
+  

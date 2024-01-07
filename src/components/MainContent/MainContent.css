@@ -4,84 +4,84 @@
 
 /* Main Content Section 1 styles */
 .main-content .section-1 {
-    display: flex;
-    justify-content: center; /* Align everything to the right */
-    align-items: center;
-    height: 50vh; /* Adjust the height according to your design */
-    background-color: #f0f0f0; /* Adjust the background color */
+  display: flex;
+  justify-content: center; /* Align everything to the right */
+  align-items: center;
+  height: 50vh; /* Adjust the height according to your design */
+  background-color: white; /* Adjust the background color */
+}
+
+.section-1-content {
+  text-align: left; /* Align text to the left within the section */
+  max-width: 600px; /* Adjust the maximum width according to your design */
+  padding: 20px;
+}
+
+.section-1-title {
+  font-size: 36px; /* Adjust the font size of the title */
+  margin-bottom: 20px;
+}
+
+.section-1-description {
+  font-size: 18px; /* Adjust the font size of the description */
+  margin-bottom: 20px;
+}
+
+.section-1-button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none; /* Remove default link underline */
+  display: inline-block;
+}
+
+/* src/components/MainContent.css */
+
+.section-1-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4285f4;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.arrow {
+  margin-left: 5px;
+}
+
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+  .main-content .section-1 {
+    justify-content: center; /* Center content on smaller screens */
+    text-align: center; /* Center text within the section */
   }
-  
+
   .section-1-content {
-    text-align: left; /* Align text to the left within the section */
-    max-width: 600px; /* Adjust the maximum width according to your design */
-    padding: 20px;
-  }
-  
-  .section-1-title {
-    font-size: 36px; /* Adjust the font size of the title */
-    margin-bottom: 20px;
-  }
-  
-  .section-1-description {
-    font-size: 18px; /* Adjust the font size of the description */
-    margin-bottom: 20px;
+    max-width: 100%; /* Allow content to take full width on smaller screens */
   }
   
   .section-1-button {
-    background-color: #4caf50;
-    color: #fff;
-    padding: 10px 15px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 5px;
-    text-decoration: none; /* Remove default link underline */
-    display: inline-block;
+    margin-top: 15px; /* Add space between description and button */
   }
+}
 
-  /* src/components/MainContent.css */
-
-.section-1-button {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #4285f4;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .arrow {
-    margin-left: 5px;
-  }
-  
-  
-  /* Responsive styles */
-  @media only screen and (max-width: 768px) {
-    .main-content .section-1 {
-      justify-content: center; /* Center content on smaller screens */
-      text-align: center; /* Center text within the section */
-    }
-  
-    .section-1-content {
-      max-width: 100%; /* Allow content to take full width on smaller screens */
-    }
-    
-    .section-1-button {
-      margin-top: 15px; /* Add space between description and button */
-    }
-  }
-  
-  /* Responsive styles */
+/* Responsive styles */
 @media only screen and (max-width: 600px) {
-    .section-1-title {
-      font-size: 24px;
-    }
-  
-    .section-1-button {
-      font-size: 14px;
-    }
+  .section-1-title {
+    font-size: 24px;
   }
+
+  .section-1-button {
+    font-size: 14px;
+  }
+}

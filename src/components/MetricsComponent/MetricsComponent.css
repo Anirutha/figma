@@ -1,0 +1,52 @@
+/* src/components/MetricsComponent.css */
+
+.metrics-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  /* Individual MetricBox styles */
+  .metric-box {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    max-width: 200px;
+  }
+  
+  .metric-content {
+    max-width: 150px;
+    margin: 0 auto;
+  }
+  
+  .metric-number {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .metric-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .metric-description {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Responsive styles for MetricsComponent */
+  @media only screen and (max-width: 600px) {
+    .metrics-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .metric-box {
+      width: 100%;
+    }
+  }
+  

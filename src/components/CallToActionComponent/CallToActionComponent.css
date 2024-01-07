@@ -1,0 +1,50 @@
+/* src/components/CallToActionComponent.css */
+
+.call-to-action-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .cta-subtitle {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .cta-buttons {
+    display: flex;
+    flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
+    justify-content: center;
+  }
+  
+  .cta-button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .cta-button:hover {
+    background-color: #3367d6;
+  }
+  
+  .cta-icon {
+    margin-left: 5px;
+  }
+  
+  /* Responsive styles for CallToActionComponent */
+  @media only screen and (max-width: 600px) {
+    .cta-buttons {
+      flex-direction: column; /* Adjust layout to column on smaller screens */
+    }
+  
+    .cta-button {
+      width: 100%; /* Make buttons full width on smaller screens */
+    }
+  }
+  
