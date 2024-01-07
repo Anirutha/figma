@@ -4,6 +4,7 @@
 
 /* Main Content Section 1 styles */
 .main-content .section-1 {
+<<<<<<< HEAD
   display: flex;
   justify-content: center; /* Align everything to the right */
   align-items: center;
@@ -64,6 +65,13 @@
   .main-content .section-1 {
     justify-content: center; /* Center content on smaller screens */
     text-align: center; /* Center text within the section */
+=======
+    display: flex;
+    justify-content: center; /* Align everything to the right */
+    align-items: center;
+    height: 50vh; /* Adjust the height according to your design */
+    background-color: white; /* Adjust the background color */
+>>>>>>> 3e6ce36436398ab1cd7bc6ee40d24f37ea66baa2
   }
 
   .section-1-content {
