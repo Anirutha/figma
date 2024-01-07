@@ -6,6 +6,7 @@ import Footer from '../Footer/Footer';
 import Announcement from '../Announcement/Announcement';
 import Logo from '../logo/logo';
 import FeatureComponent from '../FeatureComponent/FeatureComponent';
+import FeatureComponent2 from '../FeatureComponent2/FeatureComponent2';
 
 const LandingPage = () => {
   return (
@@ -15,6 +16,7 @@ const LandingPage = () => {
       <MainContent />
       <Logo/>
       <FeatureComponent/>
+      <FeatureComponent2/>
       <Footer />
     </div>
   );

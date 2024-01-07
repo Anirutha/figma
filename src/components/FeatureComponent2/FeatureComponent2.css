@@ -1,0 +1,73 @@
+/* src/components/FeatureComponent2.css */
+
+.feature-component-2 {
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .feature-content-2 {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .feature-subtitle-2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .feature-paragraph-2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .feature-button-2 {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4285f4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .feature-button-2:hover {
+    background-color: #3367d6;
+  }
+  
+  .arrow {
+    margin-left: 5px;
+  }
+  
+  .feature-columns-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+  }
+  
+  .feature-column-2 {
+    flex: 0 0 50%;
+    margin-bottom: 10px;
+   
+  }
+  
+  .feature-image {
+    width: 50%;
+    border-radius: 5px;
+   
+    
+  }
+  
+  /* Responsive styles */
+  @media only screen and (min-width: 600px) {
+    .feature-columns-2 {
+      flex-direction: row; /* Display columns in a row on larger screens */
+    }
+  
+    .feature-column-2 {
+      flex: 0 0 48%; /* Two columns on larger screens */
+    }
+  }
+  
