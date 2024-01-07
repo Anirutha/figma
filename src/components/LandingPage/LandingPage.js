@@ -7,6 +7,8 @@ import Announcement from '../Announcement/Announcement';
 import Logo from '../logo/logo';
 import FeatureComponent from '../FeatureComponent/FeatureComponent';
 import FeatureComponent2 from '../FeatureComponent2/FeatureComponent2';
+import MetricsComponent from '../MetricsComponent/MetricsComponent';
+import TestimonialComponent from '../TestimonialComponent/TestimonialComponent';
 
 const LandingPage = () => {
   return (
@@ -17,6 +19,8 @@ const LandingPage = () => {
       <Logo/>
       <FeatureComponent/>
       <FeatureComponent2/>
+      <MetricsComponent/>
+      <TestimonialComponent/>
       <Footer />
     </div>
   );

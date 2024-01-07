@@ -1,0 +1,66 @@
+/* src/components/TestimonialComponent.css */
+
+.testimonial-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .company-logo {
+    max-width: 100px;
+  }
+  
+  .testimonial-paragraph {
+    font-size: 16px;
+    margin: 20px 0;
+  }
+  
+  .avatar-container {
+    display: flex;
+    flex-direction: column; /* Adjust layout to column on smaller screens */
+    align-items: center;
+  }
+  
+  .avatar-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .avatar-details {
+    text-align: center; /* Center text on smaller screens */
+  }
+  
+  .avatar-name {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .avatar-description {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .rating-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .star {
+    color: #FFD700;
+    font-size: 20px;
+    margin: 0 2px;
+  }
+  
+  /* Responsive styles for TestimonialComponent */
+  @media only screen and (max-width: 600px) {
+    .avatar-container {
+      flex-direction: row; /* Adjust layout to row on larger screens */
+    }
+  
+    .avatar-details {
+      text-align: left; /* Align text left on larger screens */
+    }
+  }
+  
